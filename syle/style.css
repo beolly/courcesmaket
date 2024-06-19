@@ -96,7 +96,7 @@ body {
   margin-top: 20px;
 
   width: 648px;
-  background: url(/img/Ellipse\ 21.png) 100% 100% no-repeat;
+  background: url(./img/Ellipse\ 21.png) 100% 100% no-repeat;
 }
 .offer__description {
   margin: 32px 0;
@@ -327,6 +327,8 @@ hr {
   display: flex;
   margin: 68px 0 0;
   padding: 68px 118px;
+ 
+  flex-wrap: wrap;
 }
 .footer-box {
   width: 255px;
@@ -355,6 +357,7 @@ a{
   width: 1440px;
   color: #efeff2;
   text-decoration: none;
+
 }
 .sitemap__tittle {
   font-weight: 600;
@@ -377,13 +380,17 @@ a{
 .footer-link {display: flex;
   margin: 24px 0;
 }
-.copyright {
+.copyright {display: flex;
+
+  width: 443px;
+  justify-content: space-around;
+  margin: 100px auto 0;
     color: #6d6d77;
   text-decoration: none;
 }
 
 
 .footer-link-copy {
- 
+  
 
 }
